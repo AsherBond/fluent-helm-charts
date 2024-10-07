@@ -4,6 +4,37 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: "Updated Fluent Bit OCI image to v3.1.9"
+    apiVersion: v1
+    appVersion: 3.1.9
+    created: "2024-10-07T02:56:35.552115879Z"
+    description: Fast and lightweight log processor and forwarder or Linux, OSX and
+      BSD family operating systems.
+    digest: 9a868f1a13b46b13fceeab205884e7f12711b3d2aa0cb7d3916a564588e5cc36
+    home: https://fluentbit.io/
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/fluentd/fluentbit/icon/fluentbit-icon-color.svg
+    keywords:
+    - logging
+    - fluent-bit
+    - fluentd
+    maintainers:
+    - email: eduardo@calyptia.com
+      name: edsiper
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: towmeykaw@gmail.com
+      name: Towmeykaw
+    - email: steve.hipwell@gmail.com
+      name: stevehipwell
+    name: fluent-bit
+    sources:
+    - https://github.com/fluent/fluent-bit/
+    urls:
+    - https://github.com/AsherBond/fluent-helm-charts/releases/download/fluent-bit-0.47.10/fluent-bit-0.47.10.tgz
+    version: 0.47.10
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: "Made fluent-bit grafana dashboard uid configurable"
     apiVersion: v1
     appVersion: 3.1.7
@@ -5882,4 +5913,4 @@ entries:
     urls:
     - https://github.com/fluent/helm-charts/releases/download/fluentd-0.1.0/fluentd-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-24T23:28:17.883083583Z"
+generated: "2024-10-07T02:56:35.552702687Z"
