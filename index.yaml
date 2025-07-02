@@ -3,6 +3,37 @@ entries:
   fluent-bit:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: "Add VPA controlledValues option"
+    apiVersion: v1
+    appVersion: 4.0.3
+    created: "2025-07-02T09:08:01.60875494Z"
+    description: Fast and lightweight log processor and forwarder or Linux, OSX and
+      BSD family operating systems.
+    digest: ad9f73e0e7c115ee27b9e123df2829126220093cb24e1b231ffba3be2bb6b029
+    home: https://fluentbit.io/
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/fluentd/fluentbit/icon/fluentbit-icon-color.svg
+    keywords:
+    - logging
+    - fluent-bit
+    - fluentd
+    maintainers:
+    - email: eduardo@calyptia.com
+      name: edsiper
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: towmeykaw@gmail.com
+      name: Towmeykaw
+    - email: steve.hipwell@gmail.com
+      name: stevehipwell
+    name: fluent-bit
+    sources:
+    - https://github.com/fluent/fluent-bit/
+    urls:
+    - https://github.com/AsherBond/fluent-helm-charts/releases/download/fluent-bit-0.50.0/fluent-bit-0.50.0.tgz
+    version: 0.50.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: "Updated Fluent Bit OCI image to v4.0.3."
     apiVersion: v1
@@ -6337,4 +6368,4 @@ entries:
     urls:
     - https://github.com/fluent/helm-charts/releases/download/fluentd-0.1.0/fluentd-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-08T06:06:55.647779109Z"
+generated: "2025-07-02T09:08:01.609711186Z"
